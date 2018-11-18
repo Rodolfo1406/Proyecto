@@ -23,19 +23,19 @@ Partial Class Ingreso
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtNombredeUsuario = New System.Windows.Forms.TextBox()
+        Me.btnSalir = New System.Windows.Forms.Button()
+        Me.btnIngresar = New System.Windows.Forms.Button()
         Me.txtContrasena = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.txtNombredeUsuario = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.btnSalir)
+        Me.GroupBox1.Controls.Add(Me.btnIngresar)
         Me.GroupBox1.Controls.Add(Me.txtContrasena)
         Me.GroupBox1.Controls.Add(Me.txtNombredeUsuario)
         Me.GroupBox1.Controls.Add(Me.Label2)
@@ -47,14 +47,37 @@ Partial Class Ingreso
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Ingreso:"
         '
-        'Label1
+        'btnSalir
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(15, 50)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(99, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Nombre de usuario:"
+        Me.btnSalir.Location = New System.Drawing.Point(154, 168)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(103, 58)
+        Me.btnSalir.TabIndex = 5
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = True
+        '
+        'btnIngresar
+        '
+        Me.btnIngresar.Location = New System.Drawing.Point(18, 168)
+        Me.btnIngresar.Name = "btnIngresar"
+        Me.btnIngresar.Size = New System.Drawing.Size(103, 58)
+        Me.btnIngresar.TabIndex = 4
+        Me.btnIngresar.Text = "Ingresar"
+        Me.btnIngresar.UseVisualStyleBackColor = True
+        '
+        'txtContrasena
+        '
+        Me.txtContrasena.Location = New System.Drawing.Point(121, 86)
+        Me.txtContrasena.Name = "txtContrasena"
+        Me.txtContrasena.Size = New System.Drawing.Size(100, 20)
+        Me.txtContrasena.TabIndex = 3
+        '
+        'txtNombredeUsuario
+        '
+        Me.txtNombredeUsuario.Location = New System.Drawing.Point(121, 50)
+        Me.txtNombredeUsuario.Name = "txtNombredeUsuario"
+        Me.txtNombredeUsuario.Size = New System.Drawing.Size(100, 20)
+        Me.txtNombredeUsuario.TabIndex = 2
         '
         'Label2
         '
@@ -65,37 +88,14 @@ Partial Class Ingreso
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Contraseña:"
         '
-        'txtNombredeUsuario
+        'Label1
         '
-        Me.txtNombredeUsuario.Location = New System.Drawing.Point(121, 50)
-        Me.txtNombredeUsuario.Name = "txtNombredeUsuario"
-        Me.txtNombredeUsuario.Size = New System.Drawing.Size(100, 20)
-        Me.txtNombredeUsuario.TabIndex = 2
-        '
-        'txtContrasena
-        '
-        Me.txtContrasena.Location = New System.Drawing.Point(121, 86)
-        Me.txtContrasena.Name = "txtContrasena"
-        Me.txtContrasena.Size = New System.Drawing.Size(100, 20)
-        Me.txtContrasena.TabIndex = 3
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(18, 168)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(103, 58)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(149, 168)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(103, 58)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(15, 50)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(99, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Nombre de usuario:"
         '
         'Ingreso
         '
@@ -112,8 +112,8 @@ Partial Class Ingreso
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnSalir As Button
+    Friend WithEvents btnIngresar As Button
     Friend WithEvents txtContrasena As TextBox
     Friend WithEvents txtNombredeUsuario As TextBox
     Friend WithEvents Label2 As Label
