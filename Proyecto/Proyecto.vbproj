@@ -74,6 +74,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDatos.vb" />
+    <Compile Include="Busqueda.Designer.vb">
+      <DependentUpon>Busqueda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busqueda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edicion_de_Usuario.Designer.vb">
+      <DependentUpon>Edicion_de_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion_de_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Ingreso.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +116,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Busqueda.resx">
+      <DependentUpon>Busqueda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edicion_de_Usuario.resx">
+      <DependentUpon>Edicion_de_Usuario.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ingreso.resx">
       <DependentUpon>Ingreso.vb</DependentUpon>
     </EmbeddedResource>
