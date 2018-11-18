@@ -11,3 +11,4 @@ C:\Users\DiegoJosue\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.vbproj.CoreComp
 C:\Users\DiegoJosue\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\DiegoJosue\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.xml
 C:\Users\DiegoJosue\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\DiegoJosue\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Busqueda.resources

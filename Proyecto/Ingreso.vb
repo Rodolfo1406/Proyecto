@@ -19,6 +19,8 @@
 
             Menu_Principal.Show()
             Me.Hide()
+        Else
+            MessageBox.Show("El nombre y la contraseña no coinciden")
         End If
 
 
