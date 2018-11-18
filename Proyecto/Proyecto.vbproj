@@ -80,6 +80,12 @@
     <Compile Include="Busqueda.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Citas.Designer.vb">
+      <DependentUpon>Citas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Citas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Edicion_de_Usuario.Designer.vb">
       <DependentUpon>Edicion_de_Usuario.vb</DependentUpon>
     </Compile>
